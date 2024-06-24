@@ -1,0 +1,21 @@
+import java.util.LinkedList;
+public class Main {
+    public static void main(String[] args) {
+        LinkedList<String> require =new LinkedList<>();
+        require.add("Aadhar");
+        require.add("Pancard");
+        require.add("CivilScore");
+        if(require.contains("Aadhar") && require.contains("Pancard") && require.contains("CivilScore")){
+            System.out.println("You are Eligible");
+        }
+        else{
+            System.out.println("Not Eligible");
+        }
+
+
+        
+    }
+}
+----------------------------------------------------------
+Output:
+  You are Eligible
